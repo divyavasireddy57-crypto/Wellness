@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nutrition & Wellness Services | Kara Lee Wellness</title>
+  <meta name="description" content="Explore our holistic nutrition services including 1:1 Counseling, Hair Tissue Mineral Analysis (HTMA), and Mini Consultations.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="announcement-bar">
+    🌿 Now accepting new 1:1 Clients for Holistic Nutrition & Root Cause Health. <a href="#" class="open-booking-modal" data-service="Free Consultation">Claim Your Free Consult &rarr;</a>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand-logo">
+        <div class="floating-icon" style="width:40px; height:40px; font-size:1.1rem; background-color:#c6ebc0;">
+          <i class="fas fa-leaf"></i>
+        </div>
+        <div class="brand-name">
+          Kara Lee
+          <span>Wellness</span>
+        </div>
+      </a>
+
+      <button class="mobile-toggle" aria-label="Toggle Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link active">Services</a>
+        <a href="resources.html" class="nav-link">Resources & Products</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="#" class="btn btn-secondary open-booking-modal" data-service="Free Consultation">Free Consult</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="quote-banner" style="background-color: var(--bg-sand); padding: 60px 0;">
+    <div class="container text-center">
+      <span class="badge">Programs & Services</span>
+      <h1>Tailored Holistic Solutions</h1>
+      <p style="max-width: 700px; margin: 0 auto;">Select the service option that best aligns with your health goals and budget.</p>
+      
+      <!-- Filter Tabs -->
+      <div style="margin-top: 30px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+        <button class="btn btn-primary filter-btn" data-filter="all">All Services</button>
+        <button class="btn btn-outline filter-btn" data-filter="coaching">1:1 Coaching</button>
+        <button class="btn btn-outline filter-btn" data-filter="testing">Bio-Testing & Scans</button>
+        <button class="btn btn-outline filter-btn" data-filter="consult">Mini Consults</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Detailed Services Grid -->
+  <section class="services-section">
+    <div class="container">
+      <div class="services-grid">
+        
+        <!-- Service 1 -->
+        <div class="service-card service-card-item coaching">
+          <div class="service-icon"><i class="fas fa-user-friends"></i></div>
+          <h3>1:1 Holistic Nutrition Mentorship (3 Months)</h3>
+          <p>Our flagship intensive package for individuals ready to transform their gut health, energy levels, and metabolic wellness.</p>
+          <ul class="feature-list" style="margin: 15px 0;">
+            <li class="feature-item"><i class="fas fa-check"></i> Initial 75-min Comprehensive Intake</li>
+            <li class="feature-item"><i class="fas fa-check"></i> Bi-weekly 1:1 Check-in Calls</li>
+            <li class="feature-item"><i class="fas fa-check"></i> Personalized Meal Plans & Grocery Lists</li>
+            <li class="feature-item"><i class="fas fa-check"></i> Direct Messaging Support via Client Portal</li>
+          </ul>
+          <div class="service-footer">
+            <span class="service-price">$450 / month</span>
+            <a href="#" class="btn btn-primary open-booking-modal" data-service="1:1 Nutrition Counseling">Apply Now</a>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card service-card-item testing">
+          <div class="service-icon"><i class="fas fa-vial"></i></div>
+          <h3>Hair Tissue Mineral Analysis (HTMA) Kit</h3>
+          <p>Discover your mineral ratios, heavy metal exposure, and metabolic rate through hair tissue analysis.</p>
+          <ul class="feature-list" style="margin: 15px 0;">
+            <li class="feature-item"><i class="fas fa-check"></i> At-home hair sample collection kit</li>
+            <li class="feature-item"><i class="fas fa-check"></i> Lab testing for 35+ minerals & heavy metals</li>
+            <li class="feature-item"><i class="fas fa-check"></i> 60-min Results Review Consultation</li>
+            <li class="feature-item"><i class="fas fa-check"></i> Customized Mineral Supplementation Protocol</li>
+          </ul>
+          <div class="service-footer">
+            <span class="service-price">$249 Complete Kit</span>
+            <a href="#" class="btn btn-primary open-booking-modal" data-service="Hair Scan Analysis">Order Kit</a>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card service-card-item consult">
+          <div class="service-icon"><i class="fas fa-clock"></i></div>
+          <h3>45-Minute Mini Nutrition Consult</h3>
+          <p>Ideal for quick advice on supplement stack reviews, lab result interpretations, or specific acute questions.</p>
+          <ul class="feature-list" style="margin: 15px 0;">
+            <li class="feature-item"><i class="fas fa-check"></i> 45-min virtual video session</li>
+            <li class="feature-item"><i class="fas fa-check"></i> Targeted action step summary PDF</li>
+            <li class="feature-item"><i class="fas fa-check"></i> Supplement discount code access</li>
+          </ul>
+          <div class="service-footer">
+            <span class="service-price">$120 / Session</span>
+            <a href="#" class="btn btn-primary open-booking-modal" data-service="Mini Consult">Book Session</a>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card service-card-item consult">
+          <div class="service-icon"><i class="fas fa-mug-hot"></i></div>
+          <h3>15-Minute Free Discovery Call</h3>
+          <p>Unsure which program is right for you? Speak directly with Kara to discuss your goals and questions.</p>
+          <ul class="feature-list" style="margin: 15px 0;">
+            <li class="feature-item"><i class="fas fa-check"></i> 15-min telephone or video chat</li>
+            <li class="feature-item"><i class="fas fa-check"></i> Zero pressure assessment</li>
+          </ul>
+          <div class="service-footer">
+            <span class="service-price">$0 Complimentary</span>
+            <a href="#" class="btn btn-secondary open-booking-modal" data-service="Free Consultation">Schedule Call</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Kara Lee Wellness</h3>
+          <p>Empowering individuals to heal from within through root-cause nutrition, functional mineral balancing, and compassionate care.</p>
+        </div>
+        <div class="footer-widget">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Kara</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-widget">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">1:1 Nutrition Counseling</a></li>
+            <li><a href="services.html">Hair Scan Bio-Analysis</a></li>
+            <li><a href="services.html">Mini Consult</a></li>
+          </ul>
+        </div>
+        <div class="footer-widget">
+          <h4>Get Started</h4>
+          <p>Book your initial consult today.</p>
+          <a href="#" class="btn btn-secondary open-booking-modal" data-service="Free Consultation" style="width:100%;">Free Consult</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Kara Lee Wellness. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Booking Modal -->
+  <div class="modal" id="bookingModal">
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <h2>Book Your Consultation</h2>
+      <form id="bookingForm">
+        <div class="form-group">
+          <label for="modalService">Select Service *</label>
+          <select id="modalService" class="form-control" required>
+            <option value="Free Consultation">Free 15-Min Discovery Consult ($0)</option>
+            <option value="1:1 Nutrition Counseling">1:1 Nutrition Counseling Program</option>
+            <option value="Hair Scan Analysis">Hair Scan Bio-Analysis Kit ($249)</option>
+            <option value="Mini Consult">45-Min Mini Consult ($120)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="modalName">Your Full Name *</label>
+          <input type="text" id="modalName" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="modalEmail">Email Address *</label>
+          <input type="email" id="modalEmail" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;">Confirm Booking Request</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

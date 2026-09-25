@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Resources & Recommended Products | Kara Lee Wellness</title>
+  <meta name="description" content="Download free nutrition guides, gut health protocols, and explore Kara Lee's recommended practitioner-grade supplements and health products.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="announcement-bar">
+    🌿 Now accepting new 1:1 Clients for Holistic Nutrition & Root Cause Health. <a href="#" class="open-booking-modal" data-service="Free Consultation">Claim Your Free Consult &rarr;</a>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand-logo">
+        <div class="floating-icon" style="width:40px; height:40px; font-size:1.1rem; background-color:#c6ebc0;">
+          <i class="fas fa-leaf"></i>
+        </div>
+        <div class="brand-name">
+          Kara Lee
+          <span>Wellness</span>
+        </div>
+      </a>
+
+      <button class="mobile-toggle" aria-label="Toggle Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="resources.html" class="nav-link active">Resources & Products</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="#" class="btn btn-secondary open-booking-modal" data-service="Free Consultation">Free Consult</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="quote-banner" style="background-color: var(--bg-sand); padding: 60px 0;">
+    <div class="container text-center">
+      <span class="badge">Toolkits & Favorites</span>
+      <h1>Free Resources & Recommended Products</h1>
+      <p style="max-width: 700px; margin: 0 auto;">Curated tools, downloadable guides, and trusted practitioner products to support your daily wellness lifestyle.</p>
+    </div>
+  </section>
+
+  <!-- Downloadable Guides -->
+  <section class="resources-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">Free E-Books & Guides</span>
+        <h2>Downloadable Starter Kits</h2>
+      </div>
+
+      <div class="resource-cards">
+        <div class="resource-card">
+          <div class="resource-thumb">
+            <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=600&q=80" alt="Gut Health Starter Guide">
+          </div>
+          <div class="resource-body">
+            <h3>Gut Health Reset Guide</h3>
+            <p>Understand digestive enzymes, pro-biotic foods, and gut lining restoration protocols.</p>
+            <button class="btn btn-primary" style="width:100%;" onclick="showToast('Downloading Gut Health Reset Guide PDF...');">Download PDF</button>
+          </div>
+        </div>
+
+        <div class="resource-card">
+          <div class="resource-thumb">
+            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80" alt="Mineral & Electrolyte Guide">
+          </div>
+          <div class="resource-body">
+            <h3>Adrenal Cocktail & Mineral Guide</h3>
+            <p>Learn how potassium, sodium, and vitamin C support your adrenal glands under stress.</p>
+            <button class="btn btn-primary" style="width:100%;" onclick="showToast('Downloading Mineral Guide PDF...');">Download PDF</button>
+          </div>
+        </div>
+
+        <div class="resource-card">
+          <div class="resource-thumb">
+            <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80" alt="Blood Sugar Balance Guide">
+          </div>
+          <div class="resource-body">
+            <h3>Blood Sugar & Energy Cheatsheet</h3>
+            <p>Pairing proteins, fats, and carbs effectively to eliminate afternoon energy slumps.</p>
+            <button class="btn btn-primary" style="width:100%;" onclick="showToast('Downloading Blood Sugar Guide PDF...');">Download PDF</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curated Products & Supplement Dispensary -->
+  <section class="services-section" style="background-color: var(--bg-cream);">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">Practitioner Recommendations</span>
+        <h2>Curated Wellness Favorites</h2>
+        <p>Products tested and approved by Kara for purity, bioavailability, and high quality.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-pills"></i></div>
+          <h3>Fullscript Supplement Dispensary</h3>
+          <p>Access practitioner-grade, third-party tested supplements with 15% off standard pricing.</p>
+          <a href="https://fullscript.com" target="_blank" class="btn btn-outline" style="margin-top:15px;">Shop Fullscript Store &rarr;</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-glass-water"></i></div>
+          <h3>Remineralizing Electrolytes</h3>
+          <p>Pure trace mineral drops designed for optimal cellular hydration without added sugars.</p>
+          <a href="#" onclick="showToast('Redirecting to partner product page...'); return false;" class="btn btn-outline" style="margin-top:15px;">View Product &rarr;</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-filter"></i></div>
+          <h3>Water Filtration Systems</h3>
+          <p>Kara's top recommendations for removing fluoride, heavy metals, and chlorine from drinking water.</p>
+          <a href="#" onclick="showToast('Redirecting to partner product page...'); return false;" class="btn btn-outline" style="margin-top:15px;">View Filter Guide &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Kara Lee Wellness</h3>
+          <p>Empowering individuals to heal from within through root-cause nutrition, functional mineral balancing, and compassionate care.</p>
+        </div>
+        <div class="footer-widget">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Kara</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-widget">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">1:1 Nutrition Counseling</a></li>
+            <li><a href="services.html">Hair Scan Bio-Analysis</a></li>
+            <li><a href="services.html">Mini Consult</a></li>
+          </ul>
+        </div>
+        <div class="footer-widget">
+          <h4>Get Started</h4>
+          <p>Book your initial consult today.</p>
+          <a href="#" class="btn btn-secondary open-booking-modal" data-service="Free Consultation" style="width:100%;">Free Consult</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Kara Lee Wellness. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Booking Modal -->
+  <div class="modal" id="bookingModal">
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <h2>Book Your Consultation</h2>
+      <form id="bookingForm">
+        <div class="form-group">
+          <label for="modalService">Select Service *</label>
+          <select id="modalService" class="form-control" required>
+            <option value="Free Consultation">Free 15-Min Discovery Consult ($0)</option>
+            <option value="1:1 Nutrition Counseling">1:1 Nutrition Counseling Program</option>
+            <option value="Hair Scan Analysis">Hair Scan Bio-Analysis Kit ($249)</option>
+            <option value="Mini Consult">45-Min Mini Consult ($120)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="modalName">Your Full Name *</label>
+          <input type="text" id="modalName" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="modalEmail">Email Address *</label>
+          <input type="email" id="modalEmail" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;">Confirm Booking Request</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

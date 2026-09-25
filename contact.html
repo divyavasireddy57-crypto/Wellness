@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Schedule | Kara Lee Wellness</title>
+  <meta name="description" content="Get in touch with Kara Lee Wellness. Schedule your free consultation or send us your health questions.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="announcement-bar">
+    🌿 Now accepting new 1:1 Clients for Holistic Nutrition & Root Cause Health. <a href="#" class="open-booking-modal" data-service="Free Consultation">Claim Your Free Consult &rarr;</a>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand-logo">
+        <div class="floating-icon" style="width:40px; height:40px; font-size:1.1rem; background-color:#c6ebc0;">
+          <i class="fas fa-leaf"></i>
+        </div>
+        <div class="brand-name">
+          Kara Lee
+          <span>Wellness</span>
+        </div>
+      </a>
+
+      <button class="mobile-toggle" aria-label="Toggle Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="resources.html" class="nav-link">Resources & Products</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+        <a href="#" class="btn btn-secondary open-booking-modal" data-service="Free Consultation">Free Consult</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="quote-banner" style="background-color: var(--bg-sand); padding: 60px 0;">
+    <div class="container text-center">
+      <span class="badge">Get in Touch</span>
+      <h1>Contact & Consultations</h1>
+      <p style="max-width: 700px; margin: 0 auto;">Have questions about our programs or want to get started? We're here to support you.</p>
+    </div>
+  </section>
+
+  <!-- Contact Grid Section -->
+  <section class="contact-section">
+    <div class="container contact-grid">
+      <div class="contact-info-box">
+        <h3>Connect With Us</h3>
+        <p>We work with clients virtually across the United States via secure HIPAA-compliant telehealth portals.</p>
+
+        <div class="info-item">
+          <div class="info-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <strong>Direct Email</strong>
+            <p>hello@karaleewellness.com</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon"><i class="fas fa-phone"></i></div>
+          <div>
+            <strong>Telephone Support</strong>
+            <p>+1 (555) 382-9478</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon"><i class="fas fa-clock"></i></div>
+          <div>
+            <strong>Office Hours</strong>
+            <p>Monday – Thursday: 9:00 AM – 5:00 PM EST</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-wrapper">
+        <h3>Send an Inquiry</h3>
+        <form id="mainContactForm">
+          <div class="form-group">
+            <label for="contactName">Your Name *</label>
+            <input type="text" id="contactName" class="form-control" required placeholder="Jane Doe">
+          </div>
+          <div class="form-group">
+            <label for="contactEmail">Your Email *</label>
+            <input type="email" id="contactEmail" class="form-control" required placeholder="jane@example.com">
+          </div>
+          <div class="form-group">
+            <label for="contactGoal">Primary Area of Interest</label>
+            <select id="contactGoal" class="form-control">
+              <option value="1:1 Nutrition Coaching">1:1 Nutrition Coaching</option>
+              <option value="Hair Scan Analysis">Hair Scan Bio-Analysis</option>
+              <option value="Mini Consult">Mini Consult</option>
+              <option value="General Question">General Question</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="contactMessage">Message</label>
+            <textarea id="contactMessage" class="form-control" placeholder="How can we help you?"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="services-section" style="background-color: var(--bg-light);">
+    <div class="container" style="max-width: 800px;">
+      <div class="section-header">
+        <span class="badge">Frequently Asked Questions</span>
+        <h2>Common Questions</h2>
+      </div>
+
+      <div style="display:flex; flex-direction:column; gap:20px;">
+        <div style="background-color:var(--bg-cream); padding:25px; border-radius:var(--radius-sm); border-left:4px solid var(--primary-color);">
+          <h4 style="margin-bottom:8px;">Do you take insurance?</h4>
+          <p style="margin-bottom:0;">While we are an out-of-network provider, we can provide itemized Superbills (HSA/FSA eligible) that you can submit to your insurance for potential reimbursement.</p>
+        </div>
+
+        <div style="background-color:var(--bg-cream); padding:25px; border-radius:var(--radius-sm); border-left:4px solid var(--primary-color);">
+          <h4 style="margin-bottom:8px;">How does telehealth work?</h4>
+          <p style="margin-bottom:0;">All 1:1 sessions and consultations are conducted via video calls through a secure, encrypted HIPAA-compliant health portal accessible on desktop or mobile.</p>
+        </div>
+
+        <div style="background-color:var(--bg-cream); padding:25px; border-radius:var(--radius-sm); border-left:4px solid var(--primary-color);">
+          <h4 style="margin-bottom:8px;">How does the Hair Tissue Mineral Analysis work?</h4>
+          <p style="margin-bottom:0;">Once ordered, we ship a simple at-home collection kit directly to your home. You send your sample to our accredited partner laboratory, and we meet 2-3 weeks later to review your detailed report.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Kara Lee Wellness</h3>
+          <p>Empowering individuals to heal from within through root-cause nutrition, functional mineral balancing, and compassionate care.</p>
+        </div>
+        <div class="footer-widget">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Kara</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-widget">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">1:1 Nutrition Counseling</a></li>
+            <li><a href="services.html">Hair Scan Bio-Analysis</a></li>
+            <li><a href="services.html">Mini Consult</a></li>
+          </ul>
+        </div>
+        <div class="footer-widget">
+          <h4>Get Started</h4>
+          <p>Book your initial consult today.</p>
+          <a href="#" class="btn btn-secondary open-booking-modal" data-service="Free Consultation" style="width:100%;">Free Consult</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Kara Lee Wellness. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Booking Modal -->
+  <div class="modal" id="bookingModal">
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <h2>Book Your Consultation</h2>
+      <form id="bookingForm">
+        <div class="form-group">
+          <label for="modalService">Select Service *</label>
+          <select id="modalService" class="form-control" required>
+            <option value="Free Consultation">Free 15-Min Discovery Consult ($0)</option>
+            <option value="1:1 Nutrition Counseling">1:1 Nutrition Counseling Program</option>
+            <option value="Hair Scan Analysis">Hair Scan Bio-Analysis Kit ($249)</option>
+            <option value="Mini Consult">45-Min Mini Consult ($120)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="modalName">Your Full Name *</label>
+          <input type="text" id="modalName" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="modalEmail">Email Address *</label>
+          <input type="email" id="modalEmail" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;">Confirm Booking Request</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
